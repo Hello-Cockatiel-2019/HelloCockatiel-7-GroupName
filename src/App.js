@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import Home from './component/Home';
 import About from './component/About';
+import Species from './component/Species';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import styled from 'styled-components';
 const Menu = styled.a`
@@ -28,6 +29,7 @@ function App() {
       </nav>
       <Home></Home>
       <About></About>
+      <Species></Species>
     </div>
   );
 }
