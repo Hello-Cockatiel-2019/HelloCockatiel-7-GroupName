@@ -1,10 +1,11 @@
 import React from 'react';
 import './App.css';
 import Home from './component/Home';
-import About from './component/About';
 import Species from './component/Species';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import styled from 'styled-components';
+import About from './component/About';
+
 const Menu = styled.a`
 font-family: Rubik;
 font-style: normal;
@@ -17,14 +18,14 @@ const Logo = '/img/Logo.png';
 
 function App() {
   return (
-    <div>     
+    <div>
       <nav className="navbar fixed-top navbar-light ">
-        <Menu  href="#" ><img src={Logo} className="Logo"/></Menu>
+        <Menu href="#" ><img src={Logo} alt="This is Logo" className="Logo" /></Menu>
         <div className="Navbar">
-          <Menu  className="navbar-brand" href="#">Home</Menu>
-          <Menu  className="navbar-brand" href="#">About</Menu>
-          <Menu  className="navbar-brand" href="#">xxxxxx</Menu>
-          <Menu  className="navbar-brand"  href="#">xxxxxx</Menu>       
+          <Menu className="navbar-brand" href="#">Home</Menu>
+          <Menu className="navbar-brand" href="#">About</Menu>
+          <Menu className="navbar-brand" href="#">xxxxxx</Menu>
+          <Menu className="navbar-brand" href="#">xxxxxx</Menu>
         </div>
       </nav>
       <Home></Home>

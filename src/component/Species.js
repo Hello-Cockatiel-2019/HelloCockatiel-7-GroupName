@@ -16,9 +16,6 @@ line-height: 85px;
 color: #000000;
 `
 const Type = styled.img`
-display: block;
-margin-left: auto;
-margin-right: auto;
 `
 const Detail = styled.p`
 font-family: Rubik;
@@ -36,7 +33,7 @@ function Species() {
             <div className="container">
                 <div className="row">
                     <div className="col-lg-4">
-                        <Type src={Entity} />
+                        <Type src={Entity} id="Type1"/>
                         <Detail>สายพันธุ์ทั่วไป</Detail>
                         <Detail>(Resident)</Detail>
                     </div>
