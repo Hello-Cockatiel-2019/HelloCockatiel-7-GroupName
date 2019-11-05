@@ -7,7 +7,7 @@ import styled from 'styled-components';
 import About from './component/About';
 
 const Menu = styled.a`
-font-family: Rubik;
+font-family: 'Kanit', sans-serif;
 font-style: normal;
 font-weight: normal;
 font-size: 24px;

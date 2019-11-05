@@ -5,13 +5,13 @@ import '../App.css';
 
 const Topic = styled.h1`
 position: absolute;
-margin-top: 300px;
+margin-top: 600px;
 margin-bottom: 0px;
 margin-right: 773px;
 margin-left: 50px;
 width: 521px;
 height: 115px;
-font-family: Rubik;
+font-family: 'Kanit', sans-serif;
 font-style: normal;
 font-weight: normal;
 font-size: 80px;
@@ -23,8 +23,8 @@ const Meaning = styled.p`
 position: absolute;
 width: 479px;
 height: 56px;
-margin: 400px 806px 24px 50px;
-font-family: Rubik;
+margin: 700px 806px 24px 50px;
+font-family: 'Kanit', sans-serif;
 font-style: normal;
 font-weight: normal;
 font-size: 24px;
@@ -40,10 +40,10 @@ function Home() {
       <div className="container">
         <div className="row">
           <div className="col-lg-6">
-
             <Topic>Killer Whale</Topic>
             <Meaning> the largest of the dolphins and
            one of the world's most powerful predators</Meaning>
+            <a href="#" id="button">About</a>
           </div>
           <div className="col-lg-6">
           </div>
