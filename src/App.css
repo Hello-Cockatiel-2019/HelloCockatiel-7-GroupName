@@ -1,22 +1,230 @@
-.App {
-  text-align: center;
+
+.Logo{
+  width: 110px;
+  height: 100px;
 }
 
-.App-logo {
-  height: 40vmin;
+.Navbar{
+  position: absolute;
+width: 662px;
+height: 28px;
+left: 1000px;
+top: 40px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.Pic1{
+  position: relative;
+  right: 200px;
+  top:100px
+}
+
+.Pic2{
+  position: absolute;
+  width: 900px;
+  height: 700px;
+}
+
+.HomePadding{
+  background-image: url("./component/Background/Background1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1200px;
+}
+
+.About{
+  position: relative;
+  top:140px;
+  margin-left: 60px;
+}
+
+
+.Species{
+  background-image: url("./component/Background/Background4.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height:1100px;
+   
+}
+
+.About2{
+margin:200px 20px 300px 160px;
+}
+
+#Background2{
+  background-image: url("./component/Background/Background2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height:1000px;
+ 
+}
+
+#Background3{
+  background-image: url("./component/Background/Background3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 1000px;
+ 
+}
+
+#Type1{
+  position: relative;
+  right: 200px;
+}
+
+#button{
+  border: none;
   color: white;
+  padding: 10px 32px 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  top:780px;
+  left:140px;
+  position: absolute;
+  font-family: 'Kanit', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 28px;
+background: #358FE1;
+border-radius: 28px;
+width: 284px;
+height: 48px;
+color: #FFFFFF;
 }
 
-.App-link {
-  color: #09d3ac;
+#Resident{
+  position: absolute;
+  right: 1px;
+  top:550px
 }
+
+#Transient{
+  position: absolute;
+  top:500px;
+}
+
+#Offshore{
+  position: absolute;
+  top:200px;
+}
+
+#ResidentData{
+  position: relative;
+  bottom: 110px;
+}
+
+#TransientData{
+  position: relative;
+  bottom: 70px;
+}
+
+#OffshoreData{
+  position: relative;
+  bottom: 250px;
+}
+
+a:hover{
+ opacity: 0.5;
+ cursor: pointer;
+}
+
+a{
+  opacity:1;
+  cursor: pointer;
+}
+
+.modal-90w{
+  max-width: 90% !important;
+}
+
+#closeButton{
+  font-size: 60px;
+  left:1330px;
+  height: 40px;
+  width: 40px;
+  background-color: whitesmoke;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  padding-bottom: 11px;
+  bottom:710px;
+}
+
+.BackgroundResident{
+  background-image: url("./component/Background/residentDetail.png");
+  background-repeat: no-repeat;
+  background-size: cover; 
+  background-position: center;
+  width: 1450px;
+  height: 700px;
+}
+
+.Backgroundtransient{
+  background-image: url("./component/Background/transient-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover; 
+  width: 1450px;
+  height: 700px;
+}
+
+.Backgroundoffshore{
+  background-image: url("./component/Background/offshore-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover; 
+  background-position: center;
+  width: 1450px;
+  height: 700px;
+}
+
+.NavbarBackground{
+  background-color:rgba(164, 223, 231, 0.49);
+}
+
+.pic8{
+  bottom:50px; left: 350px;
+  position: relative;
+}
+.pic9{
+  bottom:200px; left: 150px;
+  position: relative;
+}
+.bg8{
+  background-image: url(/img/orca-08-1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 1550px;
+  height: 900px;
+  
+}
+.bg82{
+  background-image: url(/img/orca-82-1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 1550px;
+  height: 900px;
+}
+  .bg9{
+    background-image: url(/img/orca-09.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 1000px;
+  }
+  
+  .bg10{
+    background-image: url(/img/orca-10.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 1000px;
+  }
