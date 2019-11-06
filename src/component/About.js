@@ -42,7 +42,7 @@ width:400%;
 function About() {
 
     return (
-        <Carousel>
+        <Carousel id="About">
             <Carousel.Item>
                 <div id="Background2">
                     <div className="container">

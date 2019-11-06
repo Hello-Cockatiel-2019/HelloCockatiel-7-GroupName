@@ -17,7 +17,7 @@ font-family:'Kanit', sans-serif;
 
 function Page8(){
     return(
-        <Carousel>
+        <Carousel  id="Anotomy">
         <Carousel.Item>
         <div class="bg8">
     <Topic>Anatomy</Topic>

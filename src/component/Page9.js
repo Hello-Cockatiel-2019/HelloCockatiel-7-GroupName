@@ -53,7 +53,7 @@ color:white;
 
 function Page9(){
     return(
-        <div class="bg9">
+        <div class="bg9" id="Behavior">
            
            <Paragraph1>"วาฬเพชฌฆาตเป็นสัตว์สังคม จนได้รับฉายาว่า </Paragraph1>
            <Paragraph11>"หมาป่าแห่งท้องทะเล"</Paragraph11>

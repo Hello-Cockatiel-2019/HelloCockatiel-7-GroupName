@@ -21,21 +21,21 @@ const Logo = '/img/Logo.png';
 
 function App() {
   return (
-    <div>
+    <div id="Home">
       <nav className="navbar fixed-top navbar-light NavbarBackground" >
         <Menu ><img src={Logo} alt="This is Logo" className="Logo" /></Menu>
         <div className="Navbar">
-          <Menu className="navbar-brand" href="#">Home</Menu>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          <Menu className="navbar-brand" href="#">About</Menu>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          <Menu className="navbar-brand" href="#">xxxxxx</Menu>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          <Menu className="navbar-brand" href="#">xxxxxx</Menu>
+          <Menu className="navbar-brand" href="#Home">Home</Menu>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <Menu className="navbar-brand" href="#About">About</Menu>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <Menu className="navbar-brand" href="#Anotomy">Anotomy</Menu>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <Menu className="navbar-brand" href="#Behavior">Behavior</Menu>
         </div>
       </nav>
-      <Home></Home>
+      <Home ></Home>
       <About></About>
       <Species></Species>
-      <Page8></Page8>
-      <Page9></Page9>
+      <Page8 ></Page8>
+      <Page9 ></Page9>
       <Author></Author>
     </div>
   );
