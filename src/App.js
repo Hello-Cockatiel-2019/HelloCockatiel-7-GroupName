@@ -23,7 +23,7 @@ function App() {
   return (
     <div id="Home">
       <nav className="navbar fixed-top navbar-light NavbarBackground" >
-        <Menu ><img src={Logo} alt="This is Logo" className="Logo" /></Menu>
+        <Menu href="#Home"><img src={Logo} alt="This is Logo" className="Logo" /></Menu>
         <div className="Navbar">
           <Menu className="navbar-brand" href="#Home">Home</Menu>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           <Menu className="navbar-brand" href="#About">About</Menu>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
