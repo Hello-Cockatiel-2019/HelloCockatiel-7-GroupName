@@ -5,10 +5,11 @@ import '../App.css';
 
 const orca82 = '/img/orca82.png';
 const Topic1 = styled.h1`
-top:50px;left:650px;
+top:50px;
 position: relative;
-font-size: 80px;
+font-size: 120px;
 color:white;
+text-align: center;
 font-family:'Kanit', sans-serif;
 
 `

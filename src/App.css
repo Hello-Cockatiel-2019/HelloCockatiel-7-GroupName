@@ -189,12 +189,16 @@ a{
 }
 
 .pic8{
-  bottom:50px; left: 350px;
+  bottom:50px; left: 150px;
   position: relative;
+  height: 100%;
+  widows: 100%;
 }
 .pic9{
-  bottom:200px; left: 150px;
+  bottom:90px; left: 150px;
   position: relative;
+  height: 100%;
+  widows: 100%;
 }
 .bg8{
   background-image: url(/img/orca-08-1.png);

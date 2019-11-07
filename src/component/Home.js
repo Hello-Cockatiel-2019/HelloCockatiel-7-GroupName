@@ -43,7 +43,7 @@ function Home() {
             <Topic>Killer Whale</Topic>
             <Meaning> the largest of the dolphins and
            one of the world's most powerful predators</Meaning>
-            <a href="#" id="button">About</a>
+            <a href="#About" id="button">About</a>
           </div>
           <div className="col-lg-6">
           </div>

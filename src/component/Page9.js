@@ -7,23 +7,23 @@ import '../App.css';
 
 
 const Paragraph1 = styled.p`
-font-size: 36px;
-top:150px; 
-margin-left:50px;
+font-size: 32px;
+top:100px; 
+margin-left:25px;
 position: relative;
 color:white;
 font-family: 'Kanit', sans-serif;
 `
 const Paragraph11 = styled.p`
 text-decoration: underline;font-size: 36px;
-top:150px; margin-left:50px;
+top:120px; margin-left:50px;
 position: relative;
 color:white;
 font-family:'Kanit', sans-serif;   
 `
 const Paragraph2 = styled.p`
-font-size: 36px;
-top:350px; margin-left:1000px;
+font-size: 32px;
+top:330px; margin-left:1100px;
 position: relative;
 color:white;
 font-family:'Kanit', sans-serif;
@@ -31,7 +31,7 @@ font-family:'Kanit', sans-serif;
 `
 const Paragraph3 = styled.p`
 font-size: 36px;
-top:400px;margin-left:50px;
+top:500px;margin-left:50px;
 position: relative;
 font-family:'Kanit', sans-serif;
 font-style: normal;
@@ -41,7 +41,7 @@ color:white;
 
 `
 const Topic = styled.h1`
-font-size: 80px;
+font-size: 120px;
 top:150px;
 font-family: 'Kanit', sans-serif;
 position: relative;

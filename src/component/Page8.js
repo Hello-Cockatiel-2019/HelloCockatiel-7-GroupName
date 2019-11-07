@@ -7,9 +7,10 @@ import Page82 from './Page82';
 
 const Orca8 = '/img/Orca8.png';
 const Topic = styled.h1`
-top:50px;left:650px;
+top:50px;
 position: relative;
-font-size: 80px;
+font-size: 120px;
+text-align: center;
 color:white;
 font-family:'Kanit', sans-serif;
 
